@@ -1,0 +1,269 @@
+@media (max-width:1200px){
+    .header-navbar {
+        display: none;
+    }
+    .slider-bar-mobile {
+        display: block;
+    }
+    .slider-bar {
+        display: none;
+    }
+    .header-content {
+        padding: 0 75px 30px;
+        margin-top: 160px;
+    }
+    .header-content-select {
+        width: 100%;
+
+    }
+    .travel-select-list {
+        flex-wrap: wrap;
+    }
+    .travel-select-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .banner-search img {
+        height: 320px;
+    }
+    .search-info-box {
+        width: 70%;
+    }
+    .footer-contact input {
+        flex: 1;
+        width: unset;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .packages-item-img {
+        height: 550px;
+    }
+    .header-content {
+        padding: 0 30px 15px;
+    }
+    .search-info-box:first-child {
+        margin-bottom: 30px;
+    }
+    .search-info-box {
+        width: 80%;
+        text-align: center;
+    }
+    .menu-right-title {
+        margin: 30px 0;
+    }
+    .text-copyright-left {
+        padding: 12px 0;
+        text-align: center;
+    }
+    .text-copyright-right {
+        padding: 12px 0;
+        text-align: center;
+    }
+    .mt-15 {
+        margin-top: 15px !important;
+    }
+    .mb-15 {
+        margin-bottom: 15px !important;
+    }
+}
+/* mobile */
+@media (max-width: 740px) {
+    #header-shop .header-search-content {
+        padding: 110px 15px 55px;
+    }
+    #header-packages .header-content {
+        padding: 70px 15px 70px;
+    }
+    .header-top {
+        padding: 20px 15px;
+    }
+    .packages-item-img {
+        height: 280px;
+    }
+    .header-content {
+        padding: 0 15px 15px;
+    }
+    .our-proposals {
+        padding: 55px 15px 45px;
+    }
+    .travel-select-item {
+        margin-bottom: 15px;
+    }
+    .search-info-box {
+        width: 100%;
+        text-align: center;
+    }
+    .travel-info-content {
+        padding: 75px 15px 100px;
+    }
+    .text-copyright-left {
+        padding: 12px 0;
+    }
+    .travel-info-img.col {
+        padding: 0;
+    }
+    .section-packages-container {
+        padding: 0 15px;
+    }
+    .section-row {
+        padding: 0 30px;
+    }
+    .footer-top-row {
+        padding: 0 15px;
+    }
+    .footer-contact {
+        flex-wrap: wrap;
+    }
+    .footer-contact input {
+        width: 100%;
+        flex: unset;
+        display: block;
+    }
+    .footer-contact a {
+        margin-left: unset;
+        margin-top: 15px;
+        min-width: 100%;
+    }
+    .footer-contact-menu {
+        width: 90%;
+        padding: 35px 30px;
+        margin: 0 auto;
+    }
+    .menu-right-title {
+        margin: 30px 0;
+    }
+    .footer-copyright {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .text-copyright-left {
+        padding: 8px 0;
+        text-align: center;
+    }
+    .text-copyright-right {
+        padding: 8px 0;
+        text-align: center;
+    }
+    .mt-15 {
+        margin-top: 15px !important;
+    }
+    .mb-15 {
+        margin-bottom: 15px !important;
+    }
+    .pb-30 {
+        padding-bottom: 30px  !important;
+    }
+
+    /* Shop */
+    .section-shop {
+        padding: 65px 15px;
+    }
+    /* our new */
+    .header-ournew-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section-ournew {
+        padding: 60px 15px 45px;
+    }
+    .section-ournew-item {
+        flex-wrap: wrap;
+    }
+    .ournew-item-img {
+        width: 100%;
+    }
+    .ournew-item-content {
+        width: 100%;
+    }
+    .section-ournew-item--tokyo ,.section-ournew-item--blue{
+        flex-direction: column-reverse;
+    }
+    /* COntact */
+    .header-contact-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section-contact {
+        padding: 60px 15px 90px;
+    }
+    .contact-number-phone {
+        font-size: 38px;
+    }
+    .contact-form-btn {
+        width: 100%;
+        min-width: unset;
+    } 
+    /* Packages */
+    .header-content-form {
+        margin: 0 15px;
+    }
+    .content-form-item select, .content-form-item .calender {
+        margin-bottom: 20px;
+    }
+    .header-content-title {
+        font-size: 38px;
+    }
+    .content-form-item {
+        font-size: 12px;
+    }
+
+}
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .header-logo {
+        width: unset;
+    }
+     
+}
+@media (max-width: 410px) {
+    .section {
+        margin-top: 440px;
+    }
+    .img-info-list {
+        top: 100%;
+        left: 0;
+        transform: unset;
+        bottom: unset;
+    }
+    .packages-item-img {
+        height: 240px;
+    } 
+    .img-info-item::after {
+        content: "";
+    }
+    .img-info-item {
+        width: 100%;
+        border-bottom: 1px solid #F9f9f9;
+    }
+    .select-search-icon {
+        background-color: white;
+    }
+    .packages-item-price {
+        flex-wrap: wrap;
+    }
+    .packages-price-info{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width: 350px) {
+    .slider-item {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .slider-item-img {
+        width: unset;
+    }
+    .slider-info-box {
+        flex: unset;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .slider-link {
+        text-decoration: none;
+        margin: 0 auto;
+    }
+}
